@@ -17,6 +17,7 @@
 <h3>🔍 Data Collection and Preprocessing</h3>
 <p>Extensive feature engineering was executed to integrate team performance metrics and betting odds, enhancing the models' performance by providing a nuanced data representation crucial for accurate predictions.</p>
 <table border="1" class="dataframe">
+  <caption>Data Downloaded</caption>
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -142,6 +143,10 @@
     </tr>
   </tbody>
 </table>
+
+<p align="center">
+  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695>
+</p>
 
 ![Over/Under 2.5 Goals](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695)
 <p>*Over/Under 2.5 Goals Population*</p>
