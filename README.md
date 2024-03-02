@@ -143,11 +143,18 @@
     </tr>
   </tbody>
 </table>
-
 <p align="center">
-  <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Over/Under 2.5 Goals" width="400">
-  <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Final Results" width="400">
+  <figure>
+    <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Over/Under 2.5 Goals" width="400">
+    <figcaption>Over/Under 2.5 Goals</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/d3a5c998-3736-4cf4-83d8-3a9e1c77f13a" alt="Final Results" width="400">
+    <figcaption>Final Results</figcaption>
+  </figure>
 </p>
+
 
 
 <h3>🛠 Model Development and Evaluation</h3>
