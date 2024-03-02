@@ -143,17 +143,23 @@
     </tr>
   </tbody>
 </table>
-<p align="center">
-  <figure>
-    <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Over/Under 2.5 Goals" width="400">
-    <figcaption>Over/Under 2.5 Goals</figcaption>
-  </figure>
 
-  <figure>
-    <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/d3a5c998-3736-4cf4-83d8-3a9e1c77f13a" alt="Final Results" width="400">
-    <figcaption>Final Results</figcaption>
-  </figure>
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Over/Under 2.5 Goals" width="400">
+        <p>Over/Under 2.5 Goals</p>
+      </td>
+      <td align="center">
+        <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/d3a5c998-3736-4cf4-83d8-3a9e1c77f13a" alt="Final Results" width="400">
+        <p>Final Results</p>
+      </td>
+    </tr>
+  </table>
 </p>
+
 
 
 
