@@ -145,7 +145,9 @@
 </table>
 
 <p align="center">
-  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695>
+  <caption>Label's Population</caption>
+  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695 alt="Over/Under 2.5 Goals">
+  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695 alt="Final Results">
 </p>
 
 ![Over/Under 2.5 Goals](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695)
