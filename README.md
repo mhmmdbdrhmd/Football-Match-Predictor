@@ -143,8 +143,7 @@
   </tbody>
 </table>
 
-![Over/Under 2.5 Goals](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695)
-![Final Result](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/cb52b022-1f25-4c5b-8dd7-ccb3387b9ca9)
+![Over/Under 2.5 Goals](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695) ![Final Result](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/cb52b022-1f25-4c5b-8dd7-ccb3387b9ca9)
 
 <h3>🛠 Model Development and Evaluation</h3>
 <p>A variety of classifiers were utilized (Logistic Regression, SVM, Decision Trees, MLP, etc.), with initial models built on a limited feature set, serving as a solid baseline for further refinement.</p>
