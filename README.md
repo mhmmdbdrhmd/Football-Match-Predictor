@@ -145,9 +145,10 @@
 </table>
 
 <p align="center">
-  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695 alt="Over/Under 2.5 Goals">
-  <img src=https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695 alt="Final Results">
+  <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Over/Under 2.5 Goals" width="400">
+  <img src="https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695" alt="Final Results" width="400">
 </p>
+
 
 <h3>🛠 Model Development and Evaluation</h3>
 <p>A variety of classifiers were utilized (Logistic Regression, SVM, Decision Trees, MLP, etc.), with initial models built on a limited feature set, serving as a solid baseline for further refinement.</p>
