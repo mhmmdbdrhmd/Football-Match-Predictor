@@ -145,7 +145,7 @@
 
 ![Over/Under 2.5 Goals](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/bcfab8eb-7a5f-4202-b8f5-f03beffb6695)
 *Over/Under 2.5 Goals Population*
-
+<p></p>
 
 
 ![Final Result](https://github.com/mhmmdbdrhmd/Football-Match-Predictor/assets/29101930/cb52b022-1f25-4c5b-8dd7-ccb3387b9ca9)
