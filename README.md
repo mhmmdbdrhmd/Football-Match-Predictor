@@ -16,8 +16,22 @@
 
 <h3>🔍 Data Collection and Preprocessing</h3>
 <p>Extensive feature engineering was executed to integrate team performance metrics and betting odds, enhancing the models' performance by providing a nuanced data representation crucial for accurate predictions.</p>
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
-  <caption>Data Downloaded</caption>
+  <caption>Downloaded Data and Extracted Features</caption>
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -31,118 +45,144 @@
       <th>FTR</th>
       <th>HTHG</th>
       <th>HTAG</th>
-      <th>HTR</th>
-      <th>HC</th>
-      <th>AC</th>
-      <th>B365H</th>
-      <th>B365A</th>
-      <th>B365D</th>
-      <th>Season</th>
+      <th>...</th>
+      <th>HAS</th>
+      <th>HDS</th>
+      <th>AAS</th>
+      <th>ADS</th>
+      <th>OH</th>
+      <th>OA</th>
+      <th>Over/Under</th>
+      <th>InverseHomeWinOdds</th>
+      <th>InverseDrawOdds</th>
+      <th>InverseAwayWinOdds</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>114770</th>
-      <td></td>
-      <td>Premier Division</td>
-      <td>02/03/2012</td>
-      <td>Monaghan</td>
-      <td>Dundalk</td>
+      <th>0</th>
+      <td>Italian Serie A</td>
+      <td>I1</td>
+      <td>02/12/2024</td>
+      <td>Juventus</td>
+      <td>Udinese</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>D</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>2.78</td>
-      <td>2.92</td>
-      <td>3.10</td>
-      <td>2012/2013</td>
-    </tr>
-    <tr>
-      <th>114771</th>
-      <td></td>
-      <td>Premier Division</td>
-      <td>02/03/2012</td>
-      <td>Drogheda</td>
-      <td>Shamrock Rovers</td>
       <td>1.0</td>
-      <td>2.0</td>
       <td>A</td>
       <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>0.6</td>
+      <td>1.0</td>
+      <td>0.4</td>
+      <td>1.2</td>
       <td>0.0</td>
-      <td>0</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>11.63</td>
-      <td>1.34</td>
-      <td>5.16</td>
-      <td>2012/2013</td>
+      <td>0.694444</td>
+      <td>0.222222</td>
+      <td>0.125000</td>
     </tr>
     <tr>
-      <th>114772</th>
-      <td></td>
-      <td>Premier Division</td>
-      <td>02/03/2012</td>
-      <td>Shelbourne</td>
-      <td>Sligo Rovers</td>
+      <th>46</th>
+      <td>Italian Serie A</td>
+      <td>I1</td>
+      <td>02/11/2024</td>
+      <td>Genoa</td>
+      <td>Atalanta</td>
+      <td>1.0</td>
+      <td>4.0</td>
+      <td>A</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>1.6</td>
+      <td>2.2</td>
+      <td>2.2</td>
       <td>1.0</td>
       <td>1.0</td>
+      <td>0.4</td>
+      <td>1.0</td>
+      <td>0.266667</td>
+      <td>0.303030</td>
+      <td>0.487805</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Italian Serie A</td>
+      <td>I1</td>
+      <td>02/11/2024</td>
+      <td>Monza</td>
+      <td>Verona</td>
+      <td>0.0</td>
+      <td>0.0</td>
       <td>D</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>0</td>
+      <td>...</td>
+      <td>2.4</td>
+      <td>1.2</td>
+      <td>0.6</td>
+      <td>1.2</td>
+      <td>0.6</td>
+      <td>0.6</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>4.01</td>
-      <td>2.13</td>
-      <td>3.26</td>
-      <td>2012/2013</td>
+      <td>0.487805</td>
+      <td>0.294118</td>
+      <td>0.266667</td>
     </tr>
     <tr>
-      <th>114773</th>
-      <td></td>
-      <td>Premier Division</td>
-      <td>02/03/2012</td>
-      <td>St. Patricks</td>
-      <td>Bray</td>
-      <td>1.0</td>
+      <th>48</th>
+      <td>Italian Serie A</td>
+      <td>I1</td>
+      <td>02/11/2024</td>
+      <td>Bologna</td>
+      <td>Lecce</td>
+      <td>4.0</td>
       <td>0.0</td>
       <td>H</td>
+      <td>2.0</td>
       <td>0.0</td>
+      <td>...</td>
+      <td>2.2</td>
+      <td>0.6</td>
       <td>0.0</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.54</td>
-      <td>7.34</td>
-      <td>4.21</td>
-      <td>2012/2013</td>
+      <td>2.8</td>
+      <td>0.4</td>
+      <td>0.4</td>
+      <td>1.0</td>
+      <td>0.578035</td>
+      <td>0.277778</td>
+      <td>0.190476</td>
     </tr>
     <tr>
-      <th>114774</th>
-      <td></td>
-      <td>Premier Division</td>
-      <td>02/03/2012</td>
-      <td>Derry City</td>
-      <td>Bohemians</td>
+      <th>51</th>
+      <td>Italian Serie A</td>
+      <td>I1</td>
+      <td>02/11/2024</td>
+      <td>Fiorentina</td>
+      <td>Frosinone</td>
+      <td>5.0</td>
       <td>1.0</td>
-      <td>0.0</td>
       <td>H</td>
+      <td>3.0</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>1.86</td>
-      <td>5.17</td>
-      <td>3.39</td>
-      <td>2012/2013</td>
+      <td>...</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>2.6</td>
+      <td>0.4</td>
+      <td>0.4</td>
+      <td>1.0</td>
+      <td>0.666667</td>
+      <td>0.230947</td>
+      <td>0.153846</td>
     </tr>
   </tbody>
 </table>
+<p>5 rows × 27 columns</p>
+</div>
 
 
 <p align="center">
@@ -175,6 +215,7 @@
 
 
 <table border="1" class="dataframe">
+  <caption>Prediction for future matches</caption>
   <thead>
     <tr style="text-align: right;">
       <th></th>
