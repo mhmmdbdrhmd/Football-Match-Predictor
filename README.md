@@ -17,19 +17,7 @@
 <h3>🔍 Data Collection and Preprocessing</h3>
 <p>Extensive feature engineering was executed to integrate team performance metrics and betting odds, enhancing the models' performance by providing a nuanced data representation crucial for accurate predictions.</p>
 <div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <caption>Downloaded Data and Extracted Features</caption>
   <thead>
