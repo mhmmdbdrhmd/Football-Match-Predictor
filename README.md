@@ -1,2 +1,126 @@
-# Football-Match-Predictor
-An advanced analysis and predictive modeling project utilizing machine learning to forecast outcomes of football matches. Incorporates data scraping, preprocessing, exploratory data analysis, and the application of several machine learning algorithms.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Div</th>
+      <th>Date</th>
+      <th>HomeTeam</th>
+      <th>AwayTeam</th>
+      <th>FTHG</th>
+      <th>FTAG</th>
+      <th>FTR</th>
+      <th>HTHG</th>
+      <th>HTAG</th>
+      <th>HTR</th>
+      <th>HC</th>
+      <th>AC</th>
+      <th>B365H</th>
+      <th>B365A</th>
+      <th>B365D</th>
+      <th>Season</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>114770</th>
+      <td></td>
+      <td>Premier Division</td>
+      <td>02/03/2012</td>
+      <td>Monaghan</td>
+      <td>Dundalk</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>D</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>2.78</td>
+      <td>2.92</td>
+      <td>3.10</td>
+      <td>2012/2013</td>
+    </tr>
+    <tr>
+      <th>114771</th>
+      <td></td>
+      <td>Premier Division</td>
+      <td>02/03/2012</td>
+      <td>Drogheda</td>
+      <td>Shamrock Rovers</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>A</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>11.63</td>
+      <td>1.34</td>
+      <td>5.16</td>
+      <td>2012/2013</td>
+    </tr>
+    <tr>
+      <th>114772</th>
+      <td></td>
+      <td>Premier Division</td>
+      <td>02/03/2012</td>
+      <td>Shelbourne</td>
+      <td>Sligo Rovers</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>D</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4.01</td>
+      <td>2.13</td>
+      <td>3.26</td>
+      <td>2012/2013</td>
+    </tr>
+    <tr>
+      <th>114773</th>
+      <td></td>
+      <td>Premier Division</td>
+      <td>02/03/2012</td>
+      <td>St. Patricks</td>
+      <td>Bray</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>H</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.54</td>
+      <td>7.34</td>
+      <td>4.21</td>
+      <td>2012/2013</td>
+    </tr>
+    <tr>
+      <th>114774</th>
+      <td></td>
+      <td>Premier Division</td>
+      <td>02/03/2012</td>
+      <td>Derry City</td>
+      <td>Bohemians</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>H</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.86</td>
+      <td>5.17</td>
+      <td>3.39</td>
+      <td>2012/2013</td>
+    </tr>
+  </tbody>
+</table>
