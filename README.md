@@ -306,12 +306,6 @@
 <p>Run the main script to train models and evaluate their performance:
 <pre><code>jupyter notebook Main.ipynb</code></pre></p>
 
-<h2>📚 Usage Guide</h2>
-<p>Details on how to use the project for predicting sports outcomes.</p>
-
-<h2>📖 Documentation</h2>
-<p>Refer to the included documentation for more in-depth information on the project setup, model development, and evaluation process.</p>
-
 <h2>💬 Community Feedback</h2>
 <p>We welcome feedback and suggestions from the community. Your insights are valuable to the continuous improvement of this project.</p>
 
@@ -324,11 +318,35 @@
 <h2>📄 License</h2>
 <p>This project is licensed under the MIT License - see the `LICENSE` file for details.</p>
 
-<h2>📞 Contact</h2>
-<p>Mohammad Badri Ahmadi - <a href="mailto:mhmmdbdrhmd@gmail.com">mhmmdbdrhmd@gmail.com</a></p>
-
 <h2>💖 Acknowledgments</h2>
 <p>- Credit to data providers and contributors.<br>
 - Special thanks to various online resources and communities for their invaluable data and insights.</p>
 
 <p>*This project aims to enhance sports analytics through advanced prediction models, contributing to the fields of betting and fantasy sports.*</p>
+
+##
+  <br>     
+  
+  </div>
+  </div>
+
+ <br><br>
+
+<div align="center">
+<div align="center"><p align="center">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="mhmmdbdrhmd@gmail.com" style="text-decoration: none;" alt="Email">
+        <img src="https://github.com/mhmmdbdrhmd/Data/blob/main/Icons/ICON%20_Black%20-%20GMail.png" width="6%" />
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/mhmmdbdrhmd" style="text-decoration: none;" alt="GitHub">
+        <img src="https://github.com/mhmmdbdrhmd/Data/blob/main/Icons/ICON%20_Black-%20Github.png" width="6%" />
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/mohamad-badri-ahmadi-aa2a1a8a?original_referer=https%3A%2F%2Fwww.google.com%2F" style="text-decoration: none;" alt="LinkedIn">
+        <img src="https://github.com/mhmmdbdrhmd/Data/blob/main/Icons/ICON%20_Black%20-%20Linkding.png" width="6%" />
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://twitter.com/mhmmdbdrhmd" style="text-decoration: none;" alt="Twitter">
+        <img src="https://github.com/mhmmdbdrhmd/Data/blob/main/Icons/ICON%20_Black%20-%20Twitter%20X.png" width="6%"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+</div>
